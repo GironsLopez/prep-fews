@@ -1,0 +1,45 @@
+MC:
+  iterations     : 100
+
+Forecast:
+  acc_mean_low   : -1.00
+  acc_mean_high  : 1.00
+
+  acc_sd_low     : 0.01
+  acc_sd_high    : 1.00
+
+  prc_shape_low  : 0.01
+  prc_shape_high : 1.00
+
+  prc_scale_low  : 0.01
+  prc_scale_high : 1.00
+
+Warning:
+  mag_thr_low    : 0.35
+  mag_thr_high   : 0.80
+
+  prob_thr_low   : 0.20
+  prob_thr_high  : 0.80
+
+Preparedness:
+  shock_low      : 1.00
+  shock_high     : 1.00
+
+  half_life_low  : 1.00
+  half_life_high : 100.00
+
+  init_prep_low  : 0.50
+  init_prep_high : 0.50
+
+Loss:
+  dmg_thr_low    : 0.35
+  dmg_thr_high   : 0.35
+
+  dmg_shape_low  : 0.10
+  dmg_shape_high : 0.50
+
+  mit_cst_low    : 0.10
+  mit_cst_high   : 0.10
+
+  res_dmg_low    : 0.10
+  res_dmg_high   : 0.90

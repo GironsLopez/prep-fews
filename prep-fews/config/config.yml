@@ -1,0 +1,20 @@
+Forecast:
+  acc_mean   : 0.00
+  acc_sd     : 0.05
+  prc_shape  : 1.00
+  prc_scale  : 0.05
+
+Warning:
+  mag_thr    : 0.40
+  prob_thr   : 0.50
+
+Preparedness:
+  shock      : 1.00
+  half_life  : 25.00
+  init_prep  : 0.50
+
+Loss:
+  dmg_thr    : 0.35
+  dmg_shape  : 0.20
+  mit_cst    : 0.10
+  res_dmg    : 0.20
